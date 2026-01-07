@@ -12,7 +12,7 @@ enum _flags {
 };
 
 typedef struct _iobuf {
-  size_t count;  // count last symbols
+  int count;  // count last symbols
   char* ptr;  // next pos
   char* base; // place of buf
   int flag;   // mode
