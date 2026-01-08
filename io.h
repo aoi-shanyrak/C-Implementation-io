@@ -11,7 +11,6 @@ typedef struct _iobuf {
   char* ptr;  // next pos
   char* base; // place of buf
   int fd;     // descryptor file
-
   struct {
     unsigned int _READ  : 1;
     unsigned int _WRITE : 1;
